@@ -1,0 +1,11 @@
+= To repro the bug
+:source-highlighter: rouge
+
+[source,shell]
+----
+$ cd Docs
+$ bundle --path vendor/bundle
+$ npm install
+$ npx antora antora-playbook.yml
+$ ls ../public/sprw/sparrow/index.html.pdf # This is a bug. With @antora/pdf-extension 1.0.0-alpha.6 filename is ../public/sprw/sparrow.pdf
+----

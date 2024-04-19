@@ -1,0 +1,6 @@
+= Docs
+
+[.center]
+ifndef::loader-assembler[]
+link:sparrow.pdf[PDF Version]
+endif::[]

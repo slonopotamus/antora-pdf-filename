@@ -1,0 +1,5 @@
+name: sprw
+title: Sparrow
+version: ~
+nav:
+  - modules/ROOT/nav.adoc
