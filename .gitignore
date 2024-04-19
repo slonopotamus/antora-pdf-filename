@@ -1,5 +1,9 @@
 *.iml
 Gemfile.lock
 package-lock.json
-/public/
+.bundle
 /.idea/
+/Docs/build
+/Docs/node_modules
+/Docs/vendor
+/public/
